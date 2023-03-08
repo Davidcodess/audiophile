@@ -1,45 +1,15 @@
 .App {
-  background-color: #000000;
-}
-.nav-container {
-  display: flex;
-  height: 60px;
-  width: 70%;
-  background-color: transparent;
-  margin: auto;
-  position: relative;
-  
+  overflow: hidden;
+  height: 100vh;
 }
 
-.hamburger-nav {
- 
-  width: 45px;
-  height: 25px;
-  top: 20px;
-  left: 20px;
-  display: flex;
-  position: absolute;
-  flex-direction: column;
-  justify-content: space-around;
-  margin-right: 30px;
-  
-
-}
-
-.bar:hover {
-  background-color: #D87D4A;
-
-}
-
-.bar {
-  background-color: #fffffb;
-  height: 5px;
-  border-radius: 5px;
+.body {
+  margin-top: -16px;
 }
 
 h1 {
-margin: auto;  
-text-align: center;
+  margin: auto;  
+  text-align: center;
   color: white;
 }
 

@@ -8,13 +8,13 @@ export default props => {
         Home
       </a>
       <a className="menu-item" href="/salads">
-        Salads
+        HEADPHONES
       </a>
       <a className="menu-item" href="/pizzas">
-        Pizzas
+        SPEAKERS
       </a>
       <a className="menu-item" href="/desserts">
-        Desserts
+        EARPHONES
       </a>
     </Menu>
   );

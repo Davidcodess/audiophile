@@ -13,7 +13,11 @@ function App() {
   return (
     <div className="App" id='outer-container'>
       <div id="page-wrap">
-        <NavBar pageWrapId={'page-wrap'} outerContainerId= {'outer-container'} />
+        <NavBar />
+        <p className='logo-text'> audiophile</p>
+      </div>
+
+      <div className='body'>
 
       <div className='header-img'>
         <div className='new-product-container'>
